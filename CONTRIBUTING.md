@@ -14,7 +14,6 @@ applied.
 [pre-commit] is used to ensure that all files have consistent formatting and to
 avoid committing secrets.
 
-<!-- TODO @memes - update if not a go project -->
 [golangci-lint] is used to enforce Go code passes
 linting and formatting rules ([gofumpt] is the expected Go code formatter). Rules
 are defined in [.golangci.yml](.golangci.yml).
@@ -46,6 +45,5 @@ are defined in [.golangci.yml](.golangci.yml).
    during `git commit`.
 
 [pre-commit]: https://pre-commit.com/
-<!-- TODO @memes - remove if not a go project -->
 [gofumpt]: https://github.com/mvdan/gofumpt
 [golangci-lint]: https://golangci-lint.run/
